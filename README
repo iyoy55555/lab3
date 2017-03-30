@@ -1,0 +1,15 @@
+A: make
+
+B:
+
+  n*logn/n^2  n代十萬 大約是700倍,而實測結果sort(): 0.027606 seconds 
+					   insertion_sort(): 73.9234 seconds
+
+		實測大約是3000倍 
+
+	      n帶1000大約100倍,實測sort(): 0.00018 seconds
+				   insertion_sort(): 0.007181 seconds
+
+		實測大約40倍
+	就結果來說都不算很準
+	不過可以確定,的確當n愈大兩者的差距愈大
